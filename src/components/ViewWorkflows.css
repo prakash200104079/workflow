@@ -1,0 +1,59 @@
+/* src/components/ViewWorkflows.css */
+
+/* Container for the view workflows page */
+.view-workflows-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #f9f9f9; /* Optional: Adds a background color */
+  }
+  
+  /* Style for the JSON input container */
+  .json-input-container {
+    margin-top: 20px;
+    text-align: center; /* Center-aligns text and textarea */
+  }
+  
+  /* Style for the textarea */
+  textarea {
+    width: 100%;
+    max-width: 600px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  
+  /* Style for the button */
+  .button {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Style for error and success messages */
+  .error-message {
+    color: red;
+    font-size: 14px;
+    margin-top: 10px;
+  }
+  
+  .success-message {
+    color: green;
+    font-size: 14px;
+    margin-top: 10px;
+  }
+  

@@ -1,0 +1,28 @@
+/* src/components/ViewTree.css */
+
+/* Container for the view tree page */
+.view-tree-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #f9f9f9; /* Optional: Adds a background color */
+  }
+  
+  /* Style for the tree view */
+  .tree-view ul {
+    list-style-type: none;
+    padding-left: 20px;
+  }
+  
+  .tree-view li {
+    margin: 5px 0;
+  }
+  
+  /* Style for error messages */
+  .error-message {
+    color: red;
+    font-size: 14px;
+    margin-top: 10px;
+  }
+  
